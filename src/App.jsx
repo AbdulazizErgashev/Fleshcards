@@ -16,6 +16,7 @@ import VeryHardWords2 from "./pages/VeryHardWords2";
 import VeryHardWords3 from "./pages/VeryHardWords3";
 import Login from "./pages/registeration/Login";
 import SignUp from "./pages/registeration/SignUp";
+import Fleshcards from "./pages/Fleshcards";
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
       <Routes>
         <Route element={<Navbar />}>
           <Route path="/" element={<Home />} />
+          <Route path="/Fleshcards" element={<Fleshcards />} />
           <Route path="/CommonWords" element={<CommonWords />} />
           <Route path="/EasyWords" element={<EasyWords />} />
           <Route path="/MediumWords" element={<MediumWords />} />

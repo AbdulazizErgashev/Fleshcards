@@ -12,3 +12,15 @@ body {
   width: 1440px;
   margin: 0 auto;
 }
+
+a.active {
+  border-bottom: 3px solid #eee;
+}
+
+.cards li {
+  background-color: #8644a2;
+  color: #eee;
+  width: 20rem;
+  text-align: center;
+  padding: 20px 0;
+}

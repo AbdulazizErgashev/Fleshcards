@@ -4,72 +4,26 @@ import { Link, NavLink, Outlet } from "react-router-dom";
 export default function Navbar() {
   return (
     <>
-      <div className="container">
-        <div className="flex items-center justify-between">
-          <Link to="/">
-            voca<span>bula</span>ry
+      <div className="bg-[#8644A2] text-[#eee]">
+        <div className="container flex items-center justify-between py-5">
+          <Link to="/" className="font-bold text-xl capitalize">
+            vocabulary
           </Link>
-          <ul className="grid grid-cols-3 items-center">
+          <ul className="flex gap-x-10 items-center opacity-70">
             <li>
-              {" "}
-              <NavLink to="/">Home</NavLink>{" "}
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              {" "}
-              <NavLink to="/CommonWords">Common Words</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/EasyWords">Easy Words</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/MediumWords">Medium Words</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/MediumWords2">Medium Words 2</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/MediumWords3">Medium Words 3</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/HardWords">Hard Words</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/HardWords2">Hard Words 2</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/HardWords3">Hard Words 3</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="/HardWords4">Hard Words 4</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="VeryHardWords">Very Hard Words</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="VeryHardWords2">Very Hard Words 2</NavLink>{" "}
-            </li>
-            <li>
-              {" "}
-              <NavLink to="VeryHardWords3">Very Hard Words 3</NavLink>{" "}
+              <NavLink to="/Fleshcards">Fleshcards</NavLink>
             </li>
           </ul>
-          <div className="flex">
+          <div className="flex items-center gap-x-10">
             <NavLink to="/Login">Login</NavLink>
             <NavLink to="/SignUp">SignUp</NavLink>
           </div>
         </div>
-        <Outlet />
       </div>
+      <Outlet />
     </>
   );
 }
