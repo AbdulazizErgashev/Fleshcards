@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
+import Home from "./pages/navbar/Home";
 import CommonWords from "./pages/CommonWords";
 import EasyWords from "./pages/EasyWords";
 import MediumWords from "./pages/MediumWords";
@@ -16,7 +16,7 @@ import VeryHardWords2 from "./pages/VeryHardWords2";
 import VeryHardWords3 from "./pages/VeryHardWords3";
 import Login from "./pages/registeration/Login";
 import SignUp from "./pages/registeration/SignUp";
-import Fleshcards from "./pages/Fleshcards";
+import Fleshcards from "./pages/navbar/Fleshcards";
 
 export default function App() {
   return (

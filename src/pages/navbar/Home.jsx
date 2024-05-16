@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../img/img1.png";
+import Img from "../../img/img1.png";
 
 export default function Home() {
   return (

@@ -19,6 +19,8 @@ a.active {
 
 .cards li {
   background-color: #8644a2;
+  /* border-radius: 10px 5% / 20px 25em 30px 35em; */
+  border-radius: 10px / 20px;
   color: #eee;
   width: 20rem;
   text-align: center;

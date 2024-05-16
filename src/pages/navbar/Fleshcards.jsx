@@ -5,7 +5,9 @@ import { NavLink } from "react-router-dom";
 export default function Fleshcards() {
   return (
     <div className="container">
-      <h1 className="text-center pt-10 text-[#8644A2] font-bold text-2xl">Fleshcards</h1>
+      <h1 className="text-center pt-10 text-[#8644A2] font-bold text-2xl">
+        Fleshcards
+      </h1>
       <ul className="cards grid grid-cols-3 justify-items-center gap-y-5 pt-20 text-xl">
         <li>
           <NavLink to="/CommonWords" className="font-bold">
@@ -62,19 +64,19 @@ export default function Fleshcards() {
           <h1 className="opacity-70">51 words</h1>
         </li>
         <li>
-          <NavLink to="VeryHardWords" className="font-bold">
+          <NavLink to="/VeryHardWords" className="font-bold">
             Very Hard Words
           </NavLink>
           <h1 className="opacity-70">50 words</h1>
         </li>
         <li>
-          <NavLink to="VeryHardWords2" className="font-bold">
+          <NavLink to="/VeryHardWords2" className="font-bold">
             Very Hard Words 2
           </NavLink>
           <h1 className="opacity-70">50 words</h1>
         </li>
         <li>
-          <NavLink to="VeryHardWords3" className="font-bold">
+          <NavLink to="/VeryHardWords3" className="font-bold">
             Very Hard Words 3
           </NavLink>
           <h1 className="opacity-70">50 words</h1>
